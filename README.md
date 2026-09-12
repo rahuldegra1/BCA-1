@@ -2,7 +2,7 @@
 
 My programming work while pursuing an Online BCA at Manipal University Jaipur, built alongside a self-directed 3-year roadmap toward becoming an AI/ML engineer. Started August 2026.
 
-**Tech Stack & Tools:** Python 3, Git, Virtual Environments (`venv`)
+**Tech Stack & Tools:** Python 3, Git, Virtual Environments (`venv`), APIs (`requests`)
 
 The repo is split into two folders:
 - **`projects/`** — real builds: fundamentals, file handling, APIs, and OOP.
@@ -22,13 +22,18 @@ To run any of the command-line applications locally:
    `cd BCA-1`
 3. (Optional but recommended) Set up a virtual environment:
    `python -m venv env`
-   `source env/bin/activate`  *(On Windows use `env\Scripts\activate`)*
+   `source env/bin/activate`  *(On Windows use `.\env\Scripts\activate`)*
 4. Run a specific script:
-   `python projects/tic_tac_toe.py`
+   `python projects/api_test.py`
 
 ---
 
 ## 🚀 Projects
+
+### User Lookup Tool (API)
+**What it does:** A command-line tool that dynamically fetches and parses live JSON data from an external server using the `requests` library, injecting user input into the URL via f-strings.
+**Why I built it:** To practice network requests, JSON parsing, and completely isolating third-party dependencies using a Python virtual environment (`venv`).
+**What I'd do differently:** Next time, I would add a `try/except` block to handle network errors gracefully (like if the computer loses internet connection while running the script) or to catch invalid user inputs if they type a letter instead of a number.
 
 ### Tic-Tac-Toe
 **What it does:** A command-line two-player game. Maps a 3x3 grid to a single flat list (index 0-8), prints the board after every move, and checks all 8 win combinations.
@@ -38,7 +43,7 @@ To run any of the command-line applications locally:
 ### Dynamic Quiz App
 **What it does:** A command-line trivia game that reads questions, four options, and the correct answer from an external `questions.csv` file using `csv.DictReader`.
 **Why I built it:** To practice reading structured external data instead of hardcoding everything into the script.
-**What I'd do differently:** Shuffle the question order and the answer options on each run so the quiz isn't identical every time. Also add input validation.
+**What I'd do differently:** Shuffle the question order and the answer options on each run so the quiz isnt identical every time. Also add input validation.
 
 ### Contact Book
 **What it does:** Stores contacts as dictionaries in a list, with add, view, and delete options. Persists data to a text file (`contact.txt`).
@@ -98,6 +103,8 @@ To run any of the command-line applications locally:
 
 ## 🧠 Core Skills Demonstrated
 
+*   **API Integration & Networking:** Fetched and parsed live JSON data from external servers using the `requests` library and dynamic URLs.
+*   **Environment Management:** Isolating project dependencies seamlessly using Python `venv`.
 *   **File Handling (I/O):** Reading and writing external data using `csv` and plain text files.
 *   **Data Structures:** Lists, nested dictionaries, tuples, sets, and 1D-to-2D grid mapping.
 *   **Control Flow:** Complex loops (`for`, `while`, `for...else`) and conditional logic.
@@ -105,11 +112,9 @@ To run any of the command-line applications locally:
 *   **Object-Oriented Programming (OOP):** Built robust classes with state management, inheritance (`super()`), and method overriding.
 *   **Debugging & Self-Testing:** Verified OOP knowledge by rewriting code from memory without autocomplete; isolated and patched logic bugs independently.
 *   **Mathematical Logic:** Hand-built truth tables and modeled basic discrete math concepts (AND/OR/NOT logic gates).
-*   **Environment Management:** Isolating project dependencies using Python `venv`.
-*   **Version Control:** Managing staging, commits, and pushing entirely via the terminal (`git add`, `git commit`, `git push`).
+*   **Version Control:** Managing staging, commits, resolving merge conflicts, and pushing entirely via the terminal (`git add`, `git commit`, `git pull`, `git push`).
 
 ## 🔜 Coming Next
 
-*   **API Integration:** Building Python scripts using the `requests` library to fetch and parse external JSON data.
 *   **Applied Logic:** Expanding discrete math knowledge to Boolean algebra and De Morgan's Laws.
 *   **Algorithmic Patterns:** Transitioning to the Two Pointers technique (starting with Valid Palindrome).
