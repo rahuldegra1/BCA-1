@@ -127,9 +127,11 @@ Each problem was attempted from scratch before any help — including a full reb
 *   **Object-Oriented Programming:** Built a bank account simulation using `class`, `__init__`, and `self` — with overdraft protection and transaction history — then extended it with inheritance (`SavingAccount(Account)` using `super()`).
 *   **Self-Testing:** Verified the OOP project actually stuck by rewriting it from memory with no autocomplete, and caught two real bugs (a dropped overdraft check, a naming typo) doing so.
 *   **Version Control:** Managing staging, commits, and pushing entirely via the terminal (`git add`, `git commit`, `git push`) rather than a GUI tool.
+*   **Terminal Navigation:** Comfortable with `pwd`, `ls`, `cd`, `mkdir`, and `rm -r` for everyday file navigation.
+*   **Virtual Environments:** Created and activated a `venv`, installed a package inside it, and verified isolation by comparing `pip list` inside vs. outside the environment.
+*   **Problem Journal:** A running log (`leetcode/JOURNAL.md`) of what was tried and what clicked for each LeetCode problem — including the ones where I leaned on outside help more than others.
 
 ## 🔜 Coming Next
 
-*   **Problem Journal:** A running log of what was tried and what clicked for each LeetCode problem.
-*   **Discrete Math Basics:** Sets, logic gates (AND/OR/NOT), and truth tables.
-*   **Virtual Environments:** Setting up and using `venv` to isolate project dependencies.
+*   **Discrete Math:** Started with Neso Academy's Discrete Mathematics series — covered discrete vs. continuous, and built AND/OR truth tables by hand. Propositional logic and set theory are next.
+*   **Linear Algebra Intuition:** Vectors, scalar multiplication, and dot products (Month 5-6 math thread).
